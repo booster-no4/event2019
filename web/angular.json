@@ -20,7 +20,7 @@
             "tsConfig": "projects/event2019/tsconfig.app.json",
             "aot": false,
             "assets": [
-              "projects/event2019/src/favicon.ico",
+              "projects/event2019/src/favicon.png",
               "projects/event2019/src/assets",
               "projects/event2019/src/img",
               "projects/event2019/src/robots.txt",
@@ -94,7 +94,7 @@
             "tsConfig": "projects/event2019/tsconfig.spec.json",
             "karmaConfig": "projects/event2019/karma.conf.js",
             "assets": [
-              "projects/event2019/src/favicon.ico",
+              "projects/event2019/src/favicon.png",
               "projects/event2019/src/assets",
               "projects/event2019/src/manifest.webmanifest"
             ],

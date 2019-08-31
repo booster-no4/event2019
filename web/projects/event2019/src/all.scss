@@ -231,7 +231,7 @@ picture img {
 
   .kv-location {
     font-size: 1.4rem;
-    color: #f00;
+    color: #4B266B;
     font-weight: 700;
 
     @include for-tablet-portrait-up {
@@ -247,7 +247,7 @@ picture img {
       width: 0;
       height: 0;
       display: inline-block;
-      border-left: 0.5em solid #f00;
+      border-left: 0.5em solid #4B266B;
       border-top: 0.3em solid transparent;
       border-bottom: 0.3em solid transparent;
       margin-right: 0.4em;
@@ -262,9 +262,9 @@ picture img {
     font-size: 30px;
     display: inline-block;
     padding: 10px 30px;
-    border: 2px solid #f00;
+    border: 2px solid #4B266B;
     border-radius: 4px;
-    color: #f00;
+    color: #4B266B;
     margin-top: 0.5em;
   }
 }
