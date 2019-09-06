@@ -151,10 +151,10 @@ picture img {
 .section-kv {
   position: relative;
   min-height: calc(100vh - 200px);
-  background: url('img/kv-circle.svg') no-repeat center bottom / cover;
+  background: url('img/kv-circle.jpg') no-repeat center bottom / cover;
   @media screen and (min-width: 768px) {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     height: 100vh;
     padding: 0;
   }

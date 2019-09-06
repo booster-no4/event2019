@@ -135,12 +135,12 @@ picture img {
 .section-kv {
   position: relative;
   min-height: calc(100vh - 200px);
-  background: url('img/kv-circle.svg') no-repeat center bottom / cover;
+  background: url('img/kv-circle.jpg') no-repeat center bottom / cover;
 
   @include for-tablet-portrait-up {
     display: flex;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-end;
+    height: calc(100vh - 200px);
     padding: 0;
   }
 
@@ -152,7 +152,7 @@ picture img {
 
   .container {
     @include for-tablet-portrait-up {
-      align-items: center;
+      align-items: flex-end;
       max-width: 1900px;
     }
   }
@@ -179,6 +179,7 @@ picture img {
       z-index: 1;
       padding-left: 2em;
       box-sizing: border-box;
+      padding-bottom: 300px;
     }
 
     @include for-drak-mode {
@@ -231,7 +232,7 @@ picture img {
 
   .kv-location {
     font-size: 1.4rem;
-    color: #4B266B;
+    color: #8F769B;
     font-weight: 700;
 
     @include for-tablet-portrait-up {
@@ -247,7 +248,7 @@ picture img {
       width: 0;
       height: 0;
       display: inline-block;
-      border-left: 0.5em solid #4B266B;
+      border-left: 0.5em solid #8F769B;
       border-top: 0.3em solid transparent;
       border-bottom: 0.3em solid transparent;
       margin-right: 0.4em;
@@ -262,9 +263,9 @@ picture img {
     font-size: 30px;
     display: inline-block;
     padding: 10px 30px;
-    border: 2px solid #4B266B;
+    border: 2px solid #8F769B;
     border-radius: 4px;
-    color: #4B266B;
+    color: #8F769B;
     margin-top: 0.5em;
   }
 }

@@ -154,7 +154,7 @@ picture img {
 .section-kv {
   position: relative;
   min-height: calc(100vh - 200px);
-  background: url("img/kv-circle.svg") no-repeat center bottom/cover; }
+  background: url("img/kv-circle.jpg") no-repeat center bottom/cover; }
   @media screen and (min-width: 768px) {
     .section-kv {
       display: -webkit-box;
@@ -162,7 +162,7 @@ picture img {
       display: flex;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center;
+      align-items: flex-end;
       height: 100vh;
       padding: 0; } }
   @media screen and (max-width: 767px) {
@@ -192,7 +192,8 @@ picture img {
       -ms-flex-order: 1;
       order: 1;
       text-align: center;
-      text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff, 0px 0px 6px #fff; } }
+      text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, 1px -1px 1px #fff,
+ -1px 1px 1px #fff, 0px 0px 6px #fff; } }
   @media screen and (min-width: 768px) {
     .section-kv .kv-txt {
       width: 100%;
